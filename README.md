@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TA simple SPA Portfolio template for developer/designers built with React. Use it to showcase your work, testimonials and other information to clients.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
 
-### `npm start`
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Screenshots](#screenshots)
+- [Authors](#authors)
+- [Deployment](#deployment)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## User Story
 
-### `npm test`
+AS AN employer looking for candidates with experience building single-page applications
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I WANT to view a potential employee's deployed React portfolio of work samples
 
-### `npm run build`
+SO THAT I can assess whether they're a good candidate for an open position
+## Acceptance Criteria
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+GIVEN a single-page application portfolio for a web developer
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+WHEN I load the portfolio
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+THEN I am presented with a page containing a header, a section for content, and a footer
 
-### `npm run eject`
+WHEN I view the header
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+WHEN I view the navigation titles
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+WHEN I click on a navigation title
 
-## Learn More
+THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+WHEN I load the portfolio the first time
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+THEN the About Me title and section are selected by default
 
-### Code Splitting
+WHEN I am presented with the About Me section
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+THEN I see a recent photo or avatar of the developer and a short bio about them
 
-### Analyzing the Bundle Size
+WHEN I am presented with the Portfolio section
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
 
-### Making a Progressive Web App
+WHEN I am presented with the Contact section
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+THEN I see a contact form with fields for a name, an email address, and a message
 
-### Advanced Configuration
+WHEN I move my cursor out of one of the form fields without entering text
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+THEN I receive a notification that this field is required
 
-### Deployment
+WHEN I enter text into the email address field
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+THEN I receive a notification if I have entered an invalid email address
 
-### `npm run build` fails to minify
+WHEN I am presented with the Resume section
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
+
+WHEN I view the footer
+
+THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+## Screenshots
+
+
+
+
+## Author
+
+- [@Douglas Snodgrass](https://www.github.com/purplepenguin67)
+
+
+## Installation
+
+## Installation
+
+Installation is a process of installing the dependencies required.
+Intialize node package manager and then run the following commands;  
+```script
+npm install
+## Deployment
+
+
+Pages: 
+
+Github: https://github.com/Purplepenguin67/react-portfolio
+
+
+
+
+
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
