@@ -1,7 +1,7 @@
+
 # React Portfolio
 
 TA simple SPA Portfolio template for developer/designers built with React. Use it to showcase your work, testimonials and other information to clients.
-
 ## Table of Contents
 
 
@@ -11,6 +11,7 @@ TA simple SPA Portfolio template for developer/designers built with React. Use i
 - [Authors](#authors)
 - [Deployment](#deployment)
 - [License](#license)
+- [Installation](#installation)
 
 
 ## User Story
@@ -81,14 +82,6 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 - [@Douglas Snodgrass](https://www.github.com/purplepenguin67)
 
 
-## Installation
-
-## Installation
-
-Installation is a process of installing the dependencies required.
-Intialize node package manager and then run the following commands;  
-```script
-npm install
 ## Deployment
 
 
@@ -105,3 +98,12 @@ Github: https://github.com/Purplepenguin67/react-portfolio
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+
+## Installation
+
+Installation is a process of installing the dependencies required.
+Intialize node package manager and then run the following commands;  
+```script
+npm install
