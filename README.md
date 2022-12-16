@@ -85,7 +85,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Deployment
 
 
-Pages: 
+Pages: https://purplepenguin67.github.io/react-portfolio/
 
 Github: https://github.com/Purplepenguin67/react-portfolio
 
